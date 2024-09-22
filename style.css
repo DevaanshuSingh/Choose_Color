@@ -1,0 +1,49 @@
+*{
+    text-shadow: .2vh .5vh .1vh .1vh black
+}
+body {
+    background-color: rgba(8, 8, 8, 0.466);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 10%;
+    border: none;
+    box-shadow: .1vh .2vh 2vh .1vh rgba(82, 74, 74, 0.5);
+    justify-content: center;
+    text-align: center;
+}
+
+
+label {
+    color: rgb(201, 177, 177);
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.164);
+    cursor: pointer;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 15vh;
+    width: 15vh;
+    position: relative;
+    left: 35%;
+    box-shadow: .1vh .2vh 2vh .1vh rgba(31, 30, 30, 0.5);
+    transition: .5s ease;
+}
+label:hover{
+    scale: .01;
+}
+input{
+    visibility: hidden;
+}
+span{
+    color: black;
+}

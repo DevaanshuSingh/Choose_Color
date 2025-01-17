@@ -39,7 +39,7 @@ label {
     transition: .5s ease;
 }
 label:hover{
-    scale: .01;
+    scale: 1.2;
 }
 input{
     visibility: hidden;
